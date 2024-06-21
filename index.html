@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Projeto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="user-icon.png" alt="Profile" class="profile-icon">
+        <span class="title">Empresa X</span>
+        <button class="icon-button" id="home-icon">
+            <a href="https://da6zin.github.io/Fortes-Engenharia---Empresa/" id="home-button"><img src="home-icon.png" alt="Home Icon"></a>
+        </button>
+        <button class="icon-button" id="menu-icon">
+            <button id="menu-button"><img src="menu-icon.png" alt="Menu Icon"></button>
+        </button>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-header">Cadastro:</div>
+            <form id="cadastroForm">
+                <div class="form-group">
+                    <label for="nomeInstituicao">Nome da instituição:</label>
+                    <input type="text" id="nomeInstituicao" name="nomeInstituicao" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="categoriaProjeto">Categoria do Projeto:</label>
+                    <input type="text" id="categoriaProjeto" name="categoriaProjeto" class="input-field">
+                    <label for="logradouro">Logradouro:</label>
+                    <input type="text" id="logradouro" name="logradouro" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="orcamentoProjeto">Orçamento do projeto:</label>
+                    <input type="text" id="orcamentoProjeto" name="orcamentoProjeto" class="input-field">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="cnpjInstituicao">CNPJ da instituição:</label>
+                    <input type="text" id="cnpjInstituicao" name="cnpjInstituicao" class="input-field">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="emailContato">Email de contato:</label>
+                    <input type="text" id="emailContato" name="emailContato" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" class="input-field">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" class="input-field">
+                </div>
+                <div class="form-group">
+                    <p>*todos os campos são obrigatórios</p>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+     <!-- Menu Lateral -->
+     <div id="sidebar" class="sidebar">
+        <a href="#" class="closebtn" id="close-sidebar">&times;</a>
+        <a href="https://da6zin.github.io/Fortes-Engenharia---Juliana/#"><i class=""></i> Mudar Usuário</a>
+        <a href="https://da6zin.github.io/Login-projeto/"><i class="fas fa-sign-out-alt"></i> Sair</a>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
